@@ -5,4 +5,4 @@
 
 Date de fin 01 avril 2022
 
-A bientôt
+A bientôt pour la prochaine rentrée
