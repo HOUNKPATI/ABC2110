@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Menu>
+    <Carte>SAVEURS de PRIMTEMPS</Carte>
+        <Prix> devise="euros">12,99</Prix>
+
+        <Entrees>
+            <choix>Veloute cremeux aux champignons de Paris</choix>
+            <choix>Oeufs mimosa avocat</choix>
+        </Entrees>
+
+        <Plats>
+            <choix>Patates douces gratinees au veau</choix>
+            <choix>Spaghetti sauce tomate au poulet</choix>
+            <choix>Blanquette de dinde et frites de pomme de terre</choix>
+        </Plats>
+
+        <Desserts>
+            <choix>Petite creme aux noisettes</choix>
+            <choix>frites de bananes plantins</choix>
+        </Desserts>
+
+    <Carte>SAVEURS du PRINTEMPS</Carte>
+
+</Menu>

@@ -1,7 +1,31 @@
 <?xml version="1.0"?>
-<le livre>
-<section1>auteur1 du livre1</section1>
-<section1>chapitre1 du livre1</section1>
-<section1<paragraphe1 du chaptre1</section1>
-<section1<paragraphe2 du chapitre1</section1>
-<section2<chapitre2 du livre1</section2>
+<livre>Des Plantes vous soignent
+    <titre>Des Plantes vous soignent</titre>
+    <section numero="1">
+        <titre>phytotherapie</titre>
+            <chapitre> plantes tropicales
+                <paragraphe> plantes sèches</paragraphe>
+                <paragraphe> plantes charnues</paragraphe>
+            </chapitre>
+            <chapitre> plantes climat tempéré
+                <paragraphe> préparation</paragraphe>
+                <paragraphe> méthode de consomation</paragraphe>
+            </chapitre>
+                    <nom> auteur </nom>
+    </section> 
+    
+    <section numero="2">
+        <titre>decoction</titre>
+            <chapitre> Les méthodes
+                <paragraphe> la tisanière</paragraphe>
+                <paragraphe> les cactus</paragraphe>
+            </chapitre>
+            <chapitre>quantite
+                    <paragraphe> consommation</paragraphe>
+                    <paragraphe> fréquences</paragraphe>
+            </chapitre>
+                        <nom> auteur </nom>
+    </section> 
+    
+                
+</livre>

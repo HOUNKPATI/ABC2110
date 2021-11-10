@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<menus> vegetarien
+    <carte>menu sans viande</carte>
+            <menu numero="1">
+            <prix devise="euros">30</prix>
+        <entree> legume
+            <choix>artichaut roti</choix>
+            <choix>salade fraiche</choix>
+            <choix>macedoine</choix>
+        </entree>
+            <menu>
+        <plats>
+            <choix>riz compose sauce tomate</choix>
+            <choix>maïs aux omelettes</choix>
+            <choix>pois chiches au lait de brebis</choix>
+        </plats>
+        <fromages>
+            <corse>fromage de brebis</corse>
+        </fromages>
+        <desserts>
+            <choix>gâteau aux noix</choix>
+            <choix>gâteau aux pommes></choix>
+            <choix>gâteau au chocolat></choix>
+        </desserts>
+            </menu>
+
+            <menu numero="2">
+            <prix devise="euros">20</prix>
+                <entree>
+                    <choix>tartelettes auxbrocoli et au camambert</choix>
+                    <choix>oeufs mimosa à l'avocat</choix>
+                </entree>
+                <plat>
+                    <choix>Mille>feuilles de pomme de terre</choix>
+                    <choix>Gratin de choux fleurs à la masarela</choix>
+                </plat>
+                <dessert>
+                    <choix>pain perdu vegan</choix>
+                    <choix>compote de pomme de terre</choix>
+                </dessert>
+            </menu>
+
+            <menu numero="3">
+            <prix devise="euros">15</prix>
+                <entree>
+                    <choix>tartelettes aux poireaux</choix>
+                </entree>
+                <plat>
+                    <choix>courgette spaghetti</choix>
+                </plat>
+                <dessert>
+                    <choix>banane vegan</choix>
+                </dessert>
+            </menu>
+        </menu>
+</menus>
+

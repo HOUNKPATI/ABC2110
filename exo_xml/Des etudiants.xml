@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+    <Etudiants>
+        <Etudiant>
+            <Nom>HILLER</Nom>
+            <Prenom>Jacques</Prenom>
+            <Ne>le 13 janvier 2000</Ne>
+            <Mail>jacques.hiller@aol.com</Mail>
+            <Formation>Stagiaire en Bureautique</Formation>
+                <Duree unitedetemps="mois">12</Duree>
+                    <Debut>1er janvier 2021</Debut>
+                    <Fin>31 decembre 2021</Fin>
+        </Etudiant>
+
+        <Etudiant>
+            <Nom>BLANDIN</Nom>
+            <Prenom>Michel</Prenom>
+            <Ne>le 25 mars 1999</Ne>
+            <Mail>blandin.michel@gmail.fr</Mail>
+            <Formation>Secretaire de Direction</Formation>
+                <Duree unitedetemps="mois">18</Duree>
+                    <Debut>12 fevrier 2021</Debut>
+                    <Fin>le 13 juin 2022</Fin>
+        </Etudiant>
+
+        <Etudiant>
+            <Nom>LOKO</Nom>
+            <Prenom>Francoise</Prenom>
+            <Nee>le 18 septembre 2001</Nee>
+            <Mail>francoise.loko@laposte.net</Mail>
+            <Formation>Assistante de bloc ORL</Formation>
+                <Duree unitedetemps="mois">36</Duree>
+                    <Debut>le 1er janvier 2021</Debut>
+                    <Fin> le 31 decembre 2023</Fin>
+        </Etudiant>
+    </Etudiants>
