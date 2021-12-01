@@ -1,0 +1,29 @@
+package exomoyenne;
+
+import java.util.Scanner;
+
+public class moyenne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Traduction du pseudo code en code Java
+		
+		// DECLARATIONS DES VARIABLES
+		//Réel nombre1
+		float nombre1;
+		//Réel nombre2
+		float nombre2;
+		//Réel moyenne
+		float moyenne;
+		
+		//SAISIR
+		//ecrire "Donnez moi svp le premier nombre:"
+		System.out.println("Donnez moi svp le premier nombre");
+		//lire nombre1
+		Scanner sc = new Scanner(System.in); //creer un outil scanner
+		nombre1 = sc.nextFloat();
+		//System.out.println("vous avez saisie nombre1="+nombre1);
+		
+		//
+	}
+}
