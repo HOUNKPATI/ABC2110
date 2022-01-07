@@ -33,6 +33,27 @@ public class moyenne {
 		
 		moyenne = (nombre1+nombre2)/2;
 		
+		/*
+		//Si (moyenne >=10) Alors
+		if (moyenne>=10) {
+		//
+		}
+		//sinon
+		else {
+		
+		// moyenne <-- moyenne + 1
+		   moyenne = moyenne + 1;
+		//FinSi
+		}
+		*/
+		
+		
+		//Si (moyenne <10) Alors
+		if (moyenne < 10){
+		//moyenne <-- moyenne + 1
+			moyenne = moyenne + 1;
+		//FinSi
+		}
 		//Affichage
 		//ecrire "la valeur moyenne est :",moyenne
 		System.out.println("la moyenne des 2 nombres est :"+moyenne);
