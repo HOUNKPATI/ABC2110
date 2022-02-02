@@ -17,8 +17,6 @@ public class ageretraite {
 			//Lire reponse
 			reponse = sc.nextInt();
 			
-		
-			
 			//Ecrire reponse  "Votre age est
 			
 			System.out.println(getRetired (reponse));
@@ -57,9 +55,7 @@ public class ageretraite {
 		else {
 			
 			return "Il n'est pas encore né";
-		}
-			
-		
+		}	
 		
 	}
 
