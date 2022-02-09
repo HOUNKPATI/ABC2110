@@ -25,7 +25,7 @@ public class Intérêt {
 		//lire rayon
 		Scanner sc = new Scanner(System.in);  //creer un util Scanner 
 		rayon = sc.nextFloat();
-		System.out.println("rayon du cercle="+rayon);
+		System.out.println("rayon du cercle = " +rayon);
 		
 		//TRAITEMENT
 		//Aire<--- Math.PI*rayon2*angle/360 air="Math.PI*pow(rayon2)*angle/360;

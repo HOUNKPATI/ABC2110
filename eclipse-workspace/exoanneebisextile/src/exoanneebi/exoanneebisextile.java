@@ -35,12 +35,14 @@ public class exoanneebisextile {
 			//Si ("annee mod 100 et mod 400 == "non")Alors
 			if ((annee % 100 == 0) && (annee % 400 != 0)){
 
-				//ECRIRE ("Annee est bisextile")
-				System.out.println("Annee est bisextile");
+				//Ecrire ("Annee n'est pas bisextile")
+				System.out.println("Annee n'est pas bisextile");
 			}
 			else
-			{
-
+			
+		{
+				//Ecrire ("Annee est bisextile")
+				System.out.println("Annee est  bisextile");		
 			}
 		}
 	}

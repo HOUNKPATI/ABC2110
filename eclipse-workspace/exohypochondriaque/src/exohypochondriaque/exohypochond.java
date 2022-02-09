@@ -12,7 +12,7 @@ public class exohypochond {
 		 Ecrire"Est ce que je suis hypochodriaque? oui/non"
 		 lire hypochondriaque
 		 
-		 tanque (temperature ==>"oui)
+		 tanque (temperature ==>"oui")
 		 */
 	}
 

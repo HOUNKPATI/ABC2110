@@ -20,7 +20,7 @@ public class tableau {
 
 		System.out.println("Entrez une valeur suivie de MI ou KM:");
 
-		saisie = sc.nextLine(); 
+		saisie = sc.nextLine().toLowerCase(); 
 
 		tableauDeConversion = saisie.split(" ");
 
@@ -32,18 +32,24 @@ public class tableau {
 		}
 		else 
 		{
-			uniteDeMesure = "Km";
+			uniteDeMesure = "km";
 		}
 			
-		uniteDeMesure = uniteDeMesure.toLowerCase();
 			
 		if(uniteDeMesure.equals("km")) 
 		{
 			conversion = (valeur/1.609);
 				
-			System.out.println(" La distance est "+valeur+" km");
+			System.out.println("La distance de " + valeur + " km est de " + conversion + " mi");
 		}
-
+		
+		if(uniteDeMesure.equals("mi")) 
+		{
+			conversion = (valeur/1.609);
+				
+			System.out.println("La distance de " + valeur + " km est de " + conversion + " mi");
+		}
+		
 	}
 
 }
