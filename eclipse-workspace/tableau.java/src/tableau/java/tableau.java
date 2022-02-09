@@ -45,7 +45,7 @@ public class tableau {
 		
 		if(uniteDeMesure.equals("mi")) 
 		{
-			conversion = (valeur/1.609);
+			conversion = (valeur/0.621);
 				
 			System.out.println("La distance de " + valeur + " km est de " + conversion + " mi");
 		}
