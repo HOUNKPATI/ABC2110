@@ -2,18 +2,21 @@ package tableau.java;
 
 import java.util.Scanner;
 
+
 public class tableau {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//DECLARATION
+
 		String saisie;
 		String[] tableauDeConversion;
 
 		int valeur;
-		
+
 		String uniteDeMesure;
-		
+
 		double conversion;
 
 		Scanner sc = new Scanner(System.in);
@@ -29,27 +32,23 @@ public class tableau {
 		if(tableauDeConversion.length > 1) 
 		{
 			uniteDeMesure = tableauDeConversion[1];
-		}
-		else 
-		{
-			uniteDeMesure = "km";
-		}
-			
-			
-		if(uniteDeMesure.equals("km")) 
-		{
-			conversion = (valeur/1.609);
-				
-			System.out.println("La distance de " + valeur + " km est de " + conversion + " mi");
-		}
-		
-		if(uniteDeMesure.equals("mi")) 
-		{
-			conversion = (valeur/0.621);
-				
-			System.out.println("La distance de " + valeur + " km est de " + conversion + " mi");
-		}
-		
-	}
 
+			if (uniteDeMesure.equals("mi"))
+			{
+				conversion = (valeur/0.621);
+
+				System.out.println("La distance de " + valeur + " mi est de " + Math.round(conversion) + " km");
+			}
+
+			else
+			{
+				conversion = (valeur/1.609);
+
+				System.out.println("La distance de " + valeur + " km est de " + Math.round(conversion) + " mi");
+			}
+
+
+		}
+		sc.close();
+	}
 }

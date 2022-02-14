@@ -6,8 +6,7 @@ public class ageretraite {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-			int reponse ;		
+				
 
 			//Ecrire "Quel est votre age?"
 			System.out.println("Quel est votre age?");
@@ -15,7 +14,7 @@ public class ageretraite {
 			Scanner sc = new Scanner (System.in);
 			
 			//Lire reponse
-			reponse = sc.nextInt();
+			int reponse = sc.nextInt();
 			
 			//Ecrire reponse  "Votre age est
 			
