@@ -1,5 +1,6 @@
 package projetrobot;
-public class Robot {
+
+public class Robot{
 	
 	private String numeroDeSerie;
 	private boolean enMarche;
@@ -19,56 +20,55 @@ public class Robot {
         positionX=0;
         positionY=0;
         positionZ=0;
+        
     }
     
   //constructeur classique: il donne les valeurs passées en parametre aux attributs
-    public Robot(String numeroDeSerie,
-            boolean _enMarche,
-            String _typeDeDeplacement,
-            boolean aDesBras,
-            float _positionX,
-            float _positionY,
-            float _positionZ) {
-        this.numeroDeSerie=numeroDeSerie;
-        enMarche=_enMarche;
-        typeDeDeplacement=_typeDeDeplacement;
-        this.aDesBras=aDesBras;
-        positionX=_positionX;
-        positionY=_positionY;
-        positionZ=_positionZ;
+    public boolean demarer() {
+    	//fonction: il renvoie un boolean, ici true;
+    	System.out.println("demarrage du Robot");	
+            if(enMarche) {
+            	enMarche = true;
+            	return true;
+			}else {
+				return false;
+			}
     }
-    //fonction: il renvoie un boolean, ici true
-    public boolean caVa(boolean ilfaitbeau) {
-        if (ilfaitbeau==true) {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+    
+    public boolean arreter() {
+    System.out.println("arret Du Robot");	
+    	if (enMarche) {
+    		enMarche = false;
+    		return true;
+    	} else {
+    		return false;
+    	}
+    	
     }
-    //procedure: ne renvoie rien (void=rien)
-    public void caVa() {
+    
+    public boolean seDeplacer(float positionX, float positionY) {
+    	return true;
+    	
     }
-    public boolean demarrer()
-    {
-        if (enMarche==true)
-        {
-            return false;
-        }
-        else
-        	 {
-        
-	
-	
-	
-	
-	
-	
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+    
+    public boolean sauter(float hauteur) {
+    	return true;
+    	
+    }
+    	
+    public boolean attraperUnObjet(Object objetAAttraper){
+    	return true;
+    }
+    
+    public float recupererPositionX() {
+    	return this.positionX;
+    }
+     
+    	
+   
+    
 }
+    
+    	 
+  	
+  

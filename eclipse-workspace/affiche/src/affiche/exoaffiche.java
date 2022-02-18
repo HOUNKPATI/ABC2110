@@ -8,7 +8,10 @@ public class exoaffiche {
 		System.out.println("Voici un exemple de programme simple en Java.");
 		System.out.println("STOP.");
 		
-		System.out.println("Ce programme a pour objectif de comprendre comment fonctionne le (pritln) dans JAVA.");
+		System.out.println("Ce programme a pour objectif de comprendre comment fonctionne le (println) dans JAVA.");
+		System.out.println("STOP.");
+		
+		System.out.println("Scanner sc = new Scanner (System.in); Tu crée simplement un scanner, et tu lui dit qu'il doit prendre en entrée l'entrée standard clavier.");
 		System.out.println("STOP.");
 		
 		System.out.println("JE COMMENCE PAR CODER EN JAVA.");

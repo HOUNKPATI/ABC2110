@@ -27,8 +27,8 @@ public class Bovary {
 
 		//SAISIE ET TRAITEMENT
 
-		//Ecrire "ilfaitbeau"
-		System.out.println("ilfaitbeau");
+		//Ecrire "il fait beau"
+		System.out.println("il fait beau");
 
 		Scanner sc = new Scanner (System.in);
 
@@ -44,13 +44,13 @@ public class Bovary {
 			//Ecrire("bicyclettebonetat oui/non");
 			System.out.println("bicyclettebonetat oui/non");
 
-			//lire bicyclettebonetat
+			//lire bicyclette bon etat
 			bicyclettebonetat = sc.next();
 			
 		
 
 
-			//Si("bicyclettebonetat =="oui")Alors
+			//Si("bicyclette bon etat =="oui")Alors
 			if (bicyclettebonetat.equals("oui")){
 
 				//Ecrire("Je fais de la bicyclette")

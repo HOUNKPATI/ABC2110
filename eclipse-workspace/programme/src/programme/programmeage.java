@@ -4,7 +4,7 @@ public class programmeage {
 	
 	public static void main(String[] args) {
 		
-		int ageATester = 18;
+		int ageATester = 23;
 		
 		String resultat = estIlMajeur(ageATester);
 		
