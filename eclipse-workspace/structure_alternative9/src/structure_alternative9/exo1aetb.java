@@ -19,7 +19,7 @@ public class exo1aetb {
 		//SAISIE ET TRAITEMENT
 		
 		//Ecrire "a"
-		System.out.println("saisire a");
+		System.out.println("saisir a");
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -28,7 +28,7 @@ public class exo1aetb {
 		a = sc.nextFloat();
 		
 		//Ecrire"b"
-		System.out.println("saisire b");
+		System.out.println("saisir b");
 		
 		//Ecrire"b"
 		b = sc.nextFloat();
