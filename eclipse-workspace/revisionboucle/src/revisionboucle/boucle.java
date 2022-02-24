@@ -43,7 +43,7 @@ public class boucle {
 				if(lundi.equals("non")){
 					
 					//Ecrire "Je retourne au foot"
-					System.out.println("Je retourne au foot");
+					System.out.println("Je vais faire du foot");
 				}
 		}
 			
