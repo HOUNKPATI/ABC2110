@@ -23,8 +23,12 @@ public class adressemail {
 		//Reel adresse mail
 		String adresseMail;
 		
+		//Reel adresse postale
+		String adressePostale;
+		
 		Scanner sc = new Scanner(System.in);
-	//Saisir
+		
+	//SAISIR
 		
 		//Ecrire "Donnez-moi s'il vous plaît un prenom"
 		System.out.println("Donnez-moi s'il vous plaît un prenom");
@@ -53,6 +57,13 @@ public class adressemail {
 		//Lire "adresseMail"
 		
 		adresseMail = sc.next();
+		
+		//ecrire "Donnez-moi une adresse postale"
+				System.out.println("Donnez-moi une adresse postale");
+				
+				//Lire "adressePostale"
+				
+				adressePostale = sc.next();
 				
 	}
 	
